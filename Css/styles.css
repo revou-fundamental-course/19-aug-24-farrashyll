@@ -1,0 +1,9 @@
+nav{height: 50px; display:flex;align-items: center;justify-content: space-between;}
+a {padding:19px; 
+    text-decoration: none;
+    padding: 10px 13px;
+    border: 1px solid;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+}
