@@ -1,9 +1,52 @@
-nav{height: 50px; display:flex;align-items: center;justify-content: space-between;}
+nav{height: 100px; display:flex;align-items: center;justify-content: space-between;margin-right:100px;}
 a {padding:19px; 
     text-decoration: none;
     padding: 10px 13px;
-    border: 1px solid;
+    border: 0px solid;
     color: black;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: "Inter", system-ui;
+    font-weight: 500;
+    background-color: white
+
+}
+.judul{display:flex;justify-content: space-between;padding-right:150px}
+
+body{background-color: #F1F1F1;width:100%}
+h1{font-size:60px; margin-left:100px; margin-top: 70px;width: 700px;font-family:"Inter", system-ui}
+p{font-size:40px; margin-top: 30px;width: 700px;font-family:"Inter", system-ui;font-weight: 400;width: 400px;}
+.deskripsi{font-size:25px;margin-bottom:20px;margin-left:100px;margin-right:100px;font-family:"Inter", system-ui;font-weight: 300;width: fit;text-align: justify;}
+article{font-size:15px;font-family:"Inter", system-ui;font-weight: 400;width: fit;text-align: left;}
+h2{font-size:30px;margin-left:100px;margin-right:70px;font-family:"Inter", system-ui;font-weight: 600;text-align: justify;}
+
+.judul2{display:flex;justify-content: center;}
+.latar{text-align: left;}
+.pengalaman{text-align: left; }
+
+.judul3{display:flex;justify-content: left;margin-left :100px;margin-top:50px;align-items: center;}
+
+.myProfile,.achievement,.pesan{font-size:50px;padding-top: 80px;margin-bottom:20px;width: 1000px;}
+.pendidikan{margin-top:20px; margin-left:70px; display:flex; align-items: center;}
+.keterangan{margin-left:20px;justify-items: left;width: 400px;}
+.beasiswa{text-align: left;vertical-align: center;}
+
+form{width:300px;max-width: 500px;min-width: 300;margin-left:100px;justify-items: center;}
+input, textarea, button{width:100%; background-color: #ffffff;
+    border: 0.1px solid #0a0a23;border-radius:3px;
+    color: #202020;
+    min-height: 35px;
+    margin:3px 0 0 0
+}
+label{display:block;margin:10px 0;font-family: "Inter",system-ui;font-size: 30px;font-weight: 700;}
+.submit{border:0.1px solid;border-radius: 10px;height:50px;width: 150px;display:block;margin:20px 0;font-family: "Inter",system-ui;font-size: 30px;font-weight: 700;}
+fieldset{border: none;
+    padding: 2rem 0;}
+
+.kumpul{display:flex}
+result{    align-self: center;
+    margin-left: 50px;
+    font-family: "Inter",system-ui;
+    font-size: 25px;
+    color: rgb(0, 160, 0)
 }
