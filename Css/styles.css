@@ -1,4 +1,4 @@
-nav{height: 100px; display:flex;align-items: center;justify-content: space-between;margin-right:100px;}
+nav{height: 100px; display:flex;align-items: center;justify-content: space-between;margin-right: 100px;}
 a {padding:19px; 
     text-decoration: none;
     padding: 10px 13px;
@@ -11,6 +11,7 @@ a {padding:19px;
     background-color: white
 
 }
+
 .judul{display:flex;justify-content: space-between;padding-right:150px}
 
 body{background-color: #F1F1F1;width:100%}
@@ -49,4 +50,7 @@ result{    align-self: center;
     font-family: "Inter",system-ui;
     font-size: 25px;
     color: rgb(0, 160, 0)
+}
+@media only screen and(max-width:600px){
+    .navbar {display:flex;flex-direction: column;}
 }
